@@ -7,3 +7,9 @@ node_modules
 # Generated files
 .psci
 output
+
+# Custom Ignore
+*.scss
+*.json
+*config.js
+*eslintrc.json
