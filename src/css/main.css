@@ -205,9 +205,12 @@ header {
 
 main {
   height: 80vh;
-  width: 80%;
+  width: 100%;
   background-color: #f8fafc;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
