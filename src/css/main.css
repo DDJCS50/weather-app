@@ -182,12 +182,15 @@ body {
 }
 
 header {
-  background-color: #64748b;
+  background-color: #059669;
   width: 100vw;
-  height: 10vh;
+  height: 7.5vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: inset -4px -4px 20px 0px gray;
+  padding: 12px;
+  font-size: 2rem;
 }
 
 #sidebar {
@@ -204,13 +207,35 @@ header {
 }
 
 main {
-  height: 80vh;
   width: 100%;
   background-color: #f8fafc;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 92.5vh;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+main .holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+main .holder form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+main .holder form button {
+  border-radius: 8px;
+}
+main .holder p {
+  font-size: 1.5rem;
 }
 
 footer {
@@ -244,4 +269,8 @@ footer {
   padding: 24px;
   border-radius: 8px;
   box-shadow: 6px 7px 10px -5px gray;
+}
+
+input {
+  font-size: 1.5rem;
 }

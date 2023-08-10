@@ -1,4 +1,5 @@
 import "./css/main.css";
-import home from "./page";
+import homeModule from "./page";
 
-home();
+homeModule.makePage();
+homeModule.callServer("Seattle");
