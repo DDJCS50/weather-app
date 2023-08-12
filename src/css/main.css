@@ -221,8 +221,7 @@ main {
 main .holder {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 4px;
 }
 main .holder form {
@@ -273,4 +272,12 @@ footer {
 
 input {
   font-size: 1.5rem;
+}
+
+h3 {
+  align-self: flex-start;
+}
+
+select {
+  border-radius: 8px;
 }
